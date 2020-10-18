@@ -1,0 +1,12 @@
+.grid-wrapper{
+    display: grid;
+    width: 80%;
+    margin: 50px auto;
+    gap: 10px;
+}
+
+.grid-wrapper *{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
