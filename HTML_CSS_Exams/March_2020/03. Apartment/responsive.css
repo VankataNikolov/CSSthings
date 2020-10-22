@@ -1,0 +1,61 @@
+@media screen and (max-width: 468px){
+    .logo-center {
+        width: 40%;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .div-header{
+        display: none;
+    }
+
+    .options{
+        flex-direction: column;
+    }
+
+    .options article{
+        text-align: center;
+        width: 100%;
+    }
+
+    .options article h4{
+        font-size: 24px;
+    }
+
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery article{
+        padding: 10px 0px;
+    }
+
+    .magazine-title a{
+        display: none;
+    }
+
+    .magazine-title h4{
+        font-size: 25px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons a{
+        margin-top: 10px;
+    }
+}
