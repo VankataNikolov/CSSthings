@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin:0;
+}
+
+.red{
+    color: #FF0000;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.btn{
+    color: white;
+    background-color: #FF0000;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+}
+
+.solo-wireless, .powerbeats, .music-free, .give-life{
+    display: flex;
+}
+
+header nav{
+    padding: 30px 0;
+}
+
+.nav-list-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-list-items li a{
+    text-decoration: none;
+    color: #9D9D9D;
+    font-weight: 700;
+}
+
+.solo-wireless{
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+}
+
+.solo-wireless-content{
+    padding-left: 50px;
+    flex-basis: 60%;
+}
+
+.solo-wireless-content-heading{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: inherit;
+}
+
+.solo-wireless-content-text{
+    margin: 30px 0;
+    font-weight: inherit;
+}
+
+.solo-wireless-content-view{
+    font-weight: inherit;
+}
+
+.solo-wireless-img-container img{
+    width: 80%;
+    position: relative;
+    right: -150px;
+}
+
+.powerbeats{
+    justify-content: space-between;
+}
+
+.powerbeats-content{
+    flex-basis: 40%;
+}
+
+.powerbeats-content-big-heading{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.powerbeats-content-small-heading{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.music-free{
+    color: white;
+    background-color: #575757;
+}
+
+.music-free-text{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.give-life-content{
+    background-color: #DADADA;
+}
+.give-life-content strong{
+    font-size: 8rem;
+}
+
+.img-beats-red-continer{
+    background-color:  #DADADA;
+}
+
+footer{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 30px 0;
+}
