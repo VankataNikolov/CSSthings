@@ -80,11 +80,24 @@ header nav{
 }
 
 .powerbeats{
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 70px 0;
+    background-color: #FBFCFF;
+}
+
+.powerbeats-img-container{
+    width: 400px;
+}
+
+.powerbeats-img-container img{
+    width: 100%;
 }
 
 .powerbeats-content{
     flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .powerbeats-content-big-heading{
@@ -94,13 +107,27 @@ header nav{
 }
 
 .powerbeats-content-small-heading{
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
+}
+
+.powerbeats-content-text{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.price-buy{
+    display: flex;
+    align-items: center;
 }
 
 .price{
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+.powerbeats-content-buy{
+    margin-left: 20px;
 }
 
 .music-free{
