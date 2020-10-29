@@ -106,11 +106,34 @@ header nav{
 .music-free{
     color: white;
     background-color: #575757;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.music-free .img-text{
+    display: flex;
+    align-items: center;
+}
+
+.music-free-img-container{
+    width: 100px;
+}
+
+.music-free-img-container img{
+    width: 100%;
 }
 
 .music-free-text{
     font-size: 2rem;
     text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.music-free a{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .img-beats-girl-container img{
