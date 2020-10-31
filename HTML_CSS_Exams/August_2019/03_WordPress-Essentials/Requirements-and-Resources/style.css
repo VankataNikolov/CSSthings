@@ -1,0 +1,104 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #234465;
+    color: white;
+}
+
+.logo-candidate{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 300px;
+}
+
+.logo a img{
+    min-width: 120px;
+}
+
+.logo-candidate li{
+    list-style: none;
+}
+
+.logo-candidate li:last-child{
+    background-color: #FFA000;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.main-menu{
+    display: flex;
+    padding: 0;
+}
+
+.main-menu li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.main-menu li a{
+    color: #8FA1B2;
+    font-weight: 700;
+}
+
+.main-menu li:last-child a{
+    background-color: #FFA000;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.courses-nav ul{
+    display: flex;
+}
+
+.courses-nav li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.courses-nav li:first-child a{
+    color: #FFA000;
+}
+
+.courses-nav li:last-child a{
+    color: #234465;
+}
+
+footer{
+    background-color: #234465;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-article-header{
+    color: #FFA000;
+}
+
+.footer-list-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer-list-items li{
+    list-style: none;
+    margin-bottom: 5px;
+}
