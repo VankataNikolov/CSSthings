@@ -1,0 +1,54 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.advantage{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.advantage-header{
+    background-color: #42ABF8;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    align-self: flex-end;
+}
+
+.advantage-list{
+    margin-top: 0;
+}
+
+.advantage-list ul{
+    margin: 0;
+    padding: 0;
+}
+
+.advantage-list li{
+    list-style: none;
+    background-color: #F4F5F7;
+    margin-bottom: 2px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-list li:first-child{
+    border-radius: 8px 0 0 0;
+}
+
+.advantage-list li:last-child{
+    border-radius: 0 0 8px 8px;
+}
+
+.fa-check-circle{
+    color: #23BE5E;
+    font-size: 20px;
+}
