@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px){
+    .gallery{
+        flex-direction: column;
+    }
+
+    .gallery > * {
+        width: 100%;
+    }
+
+    .wrapper.style2 {
+        padding: 2rem;
+    }
+
+    .spotlight > * {
+        width: 100%;
+        text-align: center;
+    }
+
+    .spotlight .inner {
+        padding: 2rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+}
