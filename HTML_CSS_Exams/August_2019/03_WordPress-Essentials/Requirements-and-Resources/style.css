@@ -7,9 +7,34 @@ body{
     padding: 0;
 }
 
+.grey-bg{
+    background-color: #F2F2F2;
+}
+
 a{
     text-decoration: none;
     color: white;
+}
+
+li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+.participation-btn{
+    font-weight: 700;
+    color: white;
+    background-color: #FFA000;
+    padding: 10px 70px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .main-nav{
@@ -31,10 +56,6 @@ a{
     min-width: 120px;
 }
 
-.logo-candidate li{
-    list-style: none;
-}
-
 .logo-candidate li:last-child{
     background-color: #FFA000;
     padding: 8px 15px;
@@ -45,11 +66,6 @@ a{
 .main-menu{
     display: flex;
     padding: 0;
-}
-
-.main-menu li{
-    list-style: none;
-    padding: 5px 10px;
 }
 
 .main-menu li a{
@@ -65,10 +81,6 @@ a{
     font-size: 14px;
 }
 
-.courses-nav ul{
-    display: flex;
-}
-
 .courses-nav li{
     list-style: none;
     padding: 0 10px;
@@ -80,6 +92,36 @@ a{
 
 .courses-nav li:last-child a{
     color: #234465;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.header-content h1{
+    margin-bottom: 0;
+}
+
+main section{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+
+.course-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-info h2{
+    border-bottom: 3px solid #FFA000;
+    margin: 0;
 }
 
 footer{
