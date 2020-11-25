@@ -26,6 +26,14 @@ ul{
     padding: 0;
 }
 
+.title{
+    border-bottom: 4px solid #FFA000;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
 .participation-btn{
     font-weight: 700;
     color: white;
@@ -108,6 +116,8 @@ ul{
 }
 
 main section{
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 20px auto;
     padding: 20px 40px;
@@ -119,9 +129,38 @@ main section{
     align-items: center;
 }
 
-.course-info h2{
-    border-bottom: 3px solid #FFA000;
-    margin: 0;
+.skills ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li{
+    flex-basis: 45%;
+}
+
+.skills li .fa-graduation-cap{
+    color: #FFA000;
+}
+
+.course-themes ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-themes ul li{
+    flex-basis: 45%;
+    background-color: #DADADA;
+    margin: 6px;
+    border-left: 3px solid #2E4D6C;
+}
+
+.course-suitable{
+    background-color: #FFA000;
+    color: white;
+}
+
+.course-suitable h2{
+    border-bottom: 4px solid white;
 }
 
 footer{
