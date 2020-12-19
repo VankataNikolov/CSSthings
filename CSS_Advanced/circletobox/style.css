@@ -1,0 +1,28 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation: circle-square 1s ease infinite alternate;
+}
+
+@keyframes circle-square{
+    from{
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    to{
+        background-color: orange;
+        border-radius: 0%;
+        height: 150px;
+        width: 150px;
+    }
+}
