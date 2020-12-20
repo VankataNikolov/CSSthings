@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 500px;
+
+    .nav-list {
+        padding: 0;
+        margin: 0;
+    
+        
+
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+            opacity: 0;
+            animation: fade-in 0.5s ease-out forwards;
+
+            @for $i from 1 through 7 {
+                &:nth-child(#{$i}) {
+                    animation-delay: #{$i * 0.1}s;
+                }
+            }
+
+            .fas{
+                display: inline-block;
+                min-width: 20px;
+                color: black;
+                margin-right: 10px;
+            }
+    
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    
+    }
+
+}
+
+@keyframes fade-in{
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to{
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
